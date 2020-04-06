@@ -20,7 +20,7 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath ='contacts/Songs/',
+            mediaPath = 'https://github.com/THRILOKNATH6/thrilok1/Songs/',
             extension = '',
             tracks = [{
                 "track": 1,
