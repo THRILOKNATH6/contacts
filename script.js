@@ -20,7 +20,7 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = 'songs/',
+            mediaPath = 'https://github.com/THRILOKNATH6/contacts/raw/gh-pages/Songs/',
             extension = '',
             tracks = [{
                 "track": 1,
