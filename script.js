@@ -100,14 +100,14 @@ jQuery(function ($) {
             btnNext = $('#btnNext').on('click', function () {
                 if ((index + 1) < trackCount) {
                     index++;
-                    loadTrack(index);
+                    
                     if (playing) {
                         audio.play();
                     }
                 } else {
                     audio.pause();
                     index = 0;
-                    loadTrack(index);
+                    
                 }
             }),
             div = $('#plList div').on('click', function () {
